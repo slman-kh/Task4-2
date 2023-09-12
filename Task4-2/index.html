@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Learner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+ <header class="back-photo w-100 vh-100 ">
+        <div class="color-photo w-100 vh-100 ">
+            <div class="container d-flex justify-content-between align-items-center pt-5 flex-wrap">
+                <div>
+                    <ul class=" d-flex flex-row list-unstyled m-0 flex-wrap w-100">
+                        <li><a href="#" class="text-decoration-none text-light"><img src="./assets/img/ques.png"
+                                alt="Ques" class="symbol m-1">Have a queestions?</a></li>
+                        <li><a href="#" class="text-decoration-none text-light m-2"><img
+                                src="./assets/img/phone.png" alt="Phone" class="symbol m-2">10 20 123 456</a></li>
+                        <li><a href="#" class="text-decoration-none text-light m-3"><img src="./assets/img/email.png"
+                                alt="Email" class="symbol m-2">info@mydomain.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="d-flex list-unstyled m-0">
+                        <li><a href="#" class="text-decoration-none text-light m-3"><img src="./assets/img/lock.png"
+                                    alt=" " class="symbol m-2">Login</a>
+                        </li>
+                        <li><a href="#" class="text-decoration-none text-light"><img src="./assets/img/user.png"
+                                    alt=" " class="symbol m-2">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-bottom position-relative m-3 "></div>
+            <nav class=" navbar w-100 navbar-expand-lg " class="nav11">
+                <div class=" container">
+                    <a class="navbar-brand text-white fw-bold fs-1 " href="#">Learner</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header border-bottom">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Learner</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column flex-lg-row p-5 p-lg-2">
+                            <ul class="navbar-nav justify-content-center align-items-center flex-grow-1">
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown mx-2">
+                                    <a class="nav-link dropdown-toggle text-white-50" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-white-50" aria-current="page" href="#">Our Staff</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-white-50" aria-current="page" href="#">News</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-white-50" aria-current="page" href="#">Gallery</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-white-50" aria-current="page" href="#">About</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link text-white-50" aria-current="page" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#"
+                                    class="text-decoration-none text-center text-white px-3 py-1 bg-primary rounded-4">ENROLL
+                                    NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="watch vh-100 w-100 d-flex flex-column align-items-center justify-content-center text-white flex-wrap text-center">
+                <p>WATCH THE VIDEO</p>
+                <h1 class="fw-bold">Education is the Mother of Leadership</h1>
+                <a href="#" class="text-decoration-none text-center text-white px-3 py-2 bg-primary rounded-4">EXPLORE
+                    COURSES</a>
+            </div>
+        </div>
+        </div>
+    </header> 
+
+    <main>
+            <!-- section 1-->
+
+        <section class="categ">
+            <div class="container">
+                <div class="sec d-flex justify-content-center">
+                    <h1>Browse Top Category</h1>
+                </div>
+                <div class="row">
+                    <!-- category 1-->
+                    <div class="col-lg-3 mt-4 ">
+                        <div class="kind-category d-flex align-items-start p-2 align-items-center">
+                            <div class=" update d-flex justify-content-center">
+                                <img src="./assets/img/science.png" alt="Science" class="bg-light w-50">
+                            </div>
+                            <div class="top-info">
+                                <p class="fs-4 mb-1">Science</p>
+                                <p class="text-black-50">1.391 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- category 2 -->
+                    <div class="col-lg-3 mt-4">
+                        <div class="kind-category d-flex  align-items-start p-2 align-items-center">
+                            <div class="update d-flex justify-content-center">
+                                <img src="./assets/img/business.png" alt="Business" class="bg-light w-50">
+                            </div>
+                            <div class="top-info">
+                                <p class="fs-4 mb-1">Business</p>
+                                <p class="text-black-50">3.234 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- category 3 -->
+                    <div class="col-lg-3 mt-4">
+                        <div class="kind-category d-flex  align-items-start p-1 align-items-center">
+                            <div class="update d-flex justify-content-center">
+                                <img src="./assets/img/FinanceAccounting.png" alt=" " class="bg-light w-50">
+                            </div>
+                            <div class="top-info">
+                                <p class="fs-5 mb-0">Finance Accounting</p>
+                                <p class="text-black-50">913 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- category 4-->
+                    <div class="col-lg-3 mt-4">
+                        <div class="kind-category d-flex  align-items-start p-2 align-items-center">
+                            <div class="update d-flex justify-content-center">
+                                <img src="./assets/img/design.png" alt=" " class="bg-light w-50">
+                            </div>
+                            <div class="top-info">
+                                <p class="fs-4 mb-1">Design</p>
+                                <p class="text-black-50">7.291 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- category 5 -->
+                    <div class="col-lg-3 mt-4">
+                        <div class="kind-category d-flex  align-items-start p-2 align-items-center">
+                            <div class="update d-flex justify-content-center">
+                                <img src="./assets/img/music.png" alt=" " class="bg-light w-50">
+                            </div>
+                            <div class="top-info">
+                                <p class="fs-4 mb-1">Music</p>
+                                <p class="text-black-50">9.114 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                         <!-- category 6-->
+                    <div class="col-lg-3 mt-4">
+                        <div class="kind-category d-flex  align-items-start p-2 align-items-center">
+                            <div class="update d-flex justify-content-center">
+                                <img src="./assets/img/marketing.png" alt=" " class="bg-light w-50">
+                            </div>
+                            <div class="top-info">
+                                <p class="fs-4 mb-1">Marketing</p>
+                                <p class="text-black-50">2.391 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- category 7 -->
+                    <div class="col-lg-3 mt-4">
+                        <div class="kind-category d-flex  align-items-start p-2 align-items-center">
+                            <div class="update d-flex justify-content-center">
+                                <img src="./assets/img/camera.png" alt=" " class="bg-light w-50">
+                            </div>
+                            <div class=" top-info">
+                                <p class="fs-4 mb-1">Photography</p>
+                                <p class="text-black-50">7.991 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                         <!-- category 8 -->
+                    <div class="col-lg-3 mt-4">
+                        <div class="kind-category d-flex  align-items-start p-2 align-items-center">
+                            <div class="update d-flex justify-content-center">
+                                <img src="./assets/img/animation.png" alt=" " class="bg-light w-50">
+                            </div>
+                            <div class="top-info">
+                                <p class="fs-4 mb-1">Animation</p>
+                                <p class="text-black-50">6.491 courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex m-4 justify-content-center">
+                        <p class="text-black-50">We have more category here.</p>
+                        <a href="#" class="text-decoration-none">Browse all</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--section2 -->
+        <section class="Become-an-Instructor">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex flex-row justify-content-between flex-wrap position-relative z-2">
+                        <div class=" d-flex flex-column justify-content-center">
+                            <h1 class="text-primary mb-3 mt-4">Become an Instructor</h1>
+                            <p class="write">Far far, behind the word mountains, far from the countries Vokalia and
+                                Consonantia,there live blind texts. Separated they live.</p>
+                            <p class="check-box mt-4">Behind the word Mountains.</p>
+                            <p class="check-box">Far far away Mountains.</p>
+                            <p class="check-box">Large language Ocean.</p>
+                            <a href="#"
+                                class="btn text-decoration-none text-center text-white py-2 bg-primary rounded-5 mt-3 mb-6">GET
+                                STARTED</a>
+                        </div>
+                        <div class="image11 position-relative z-4">
+                            <img src="./assets/img/student.png" alt=" " class="image12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section 3-->
+        <section >
+            <div class="container">
+                <div class="text-center mt-4 d-flex flex-column flex-wrap">
+                    <h1 class="m-3 text-primary">We Have Best Education</h1>
+                    <p class="text-center">Far far, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live blind texts.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-5 py-4 d-flex justify-content-center">
+                    <div class="card d-flex flex-column align-items-center" style="width: 22rem;">
+                        <img src="./assets/img/musical.png" class="card-img mt-3" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Music Class</h5>
+                            <p class="card-text mb-4">Far far, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live blind texts.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-center" style="width: 22rem;">
+                        <img src="./assets/img/design.png" class="card-img mt-3" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Math Class</h5>
+                            <p class="card-text mb-4">Far far, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live blind texts.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-center" style="width: 22rem;">
+                        <img src="./assets/img/design.png" class="card-img mt-3" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">English Class</h5>
+                            <p class="card-text mb-4">Far far, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live blind texts.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-center" style="width: 22rem;">
+                        <img src="./assets/img/design.png" class="card-img mt-3" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Reading for Kids</h5>
+                            <p class="card-text mb-4">Far far, behind the word mountains, far from the countries
+                                Vokalia and Consonantia,there live blind texts.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-center" style="width: 22rem;">
+                        <img src="./assets/img/design.png" class="card-img mt-3" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">History Class</h5>
+                            <p class="card-text mb-4">Far far, behind the word mountains, far from the countries
+                                Vokalia and Consonantia,there live blind texts.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-center" style="width: 22rem;">
+                        <img src="./assets/img/design.png" class="card-img mt-3" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Music</h5>
+                            <p class="card-text mb-4">Far far, behind the word mountains, far from the countries
+                                Vokalia and Consonantia,there live blind texts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--section  4-->
+        <section class="course">
+            <div class="container">
+                <div class="text-center mt-4 d-flex flex-column flex-wrap">
+                    <h1 class="m-3 text-primary">The Right Course For You</h1>
+                    <p>Far far, behind the word mountains, far from the countries Vokalia and</p>
+                       <p> Consonantia,there live blind texts.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 py-5 d-flex justify-content-center">
+                    <div class="card1 " style="width: 19rem;">
+                        <img src="./assets/img/course1.png" class="card-img-top" alt="...">
+                        <div class="line container d-flex justify-content-between mt-3">
+                            <p class="text-primary">43 lesson</p>
+                            <p class="star">⭐ 4.8</p>
+                        </div>
+                        <div class="card-body mt-0">
+                            <p class="card-title m-2 fs-6 fw-bold">Education program Title</p>
+                            <p class="card-text m-2 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="border-bottom"></div>
+                        </div>
+                        <div class="line container d-flex justify-content-between mt-3">
+                            <p>$87.00</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card1" style="width: 19rem;">
+                        <img src="./assets/img/course2.png" class="card-img-top" alt="...">
+                        <div class="line container d-flex justify-content-between mt-3">
+                            <p class="text-primary">43 lesson</p>
+                            <p class="star">⭐ 4.8</p>
+                        </div>
+                        <div class="card-body mt-0">
+                            <p class="card-title m-2 fs-6 fw-bold">Education program Title</p>
+                            <p class="card-text m-2 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <div class="border-bottom"></div>
+                        </div>
+                        <div class="line container d-flex justify-content-between mt-3">
+                            <p>$93.00</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+          
+                    <div class="card1" style="width: 19rem;">
+                        <img src="./assets/img/course1.png" class="card-img-top" alt="...">
+                        <div class="line container d-flex justify-content-between mt-3">
+                            <p class="text-primary">43 lesson</p>
+                            <p class="star">⭐ 4.8</p>
+                        </div>
+                        <div class="card-body mt-0">
+                            <p class="card-title m-2 fs-6 fw-bold">Education program Title</p>
+                            <p class="card-text m-2 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="border-bottom"></div>
+                        </div>
+                        <div class="line container d-flex justify-content-between mt-3">
+                            <p>$65.00</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 5-->
+        <section>
+            <div class="back-photo w-100 vh-100">
+                <div class="color-photo w-100 vh-100 ">
+                    <div
+                        class="vh-100 w-100  d-flex flex-column align-items-center justify-content-center text-white flex-wrap text-center">
+                        <h1 class="fw-bold">Education for Tomorrow's Leades</h1>
+                        <p class="fs-6">Far far away, behind the word mountains, far from the countries</p>
+                           <p> Vokalia and Consonantia,there live blind texts.</p>
+                        <a href="#" class="text-decoration-none text-center text-white px-3 py-2 bg-primary rounded-4">ENROLL NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+  <!-- section 6  -->
+        <section class="about pt-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <h3 class=" text-primary mb-5">About Us</h3>
+                        <p class=" mb-4">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the semantics,a large language ocean.
+                        </p>
+                        
+                        <p><span><i class="fa-solid fa-check"></i></span>Separted they live</p>
+                        <p><span><i class="fa-solid fa-check"></i></span>Bookmarksgrove right at thr cost</p>
+                        <p><span><i class="fa-solid fa-check"></i></span>Large language Ocean</p>
+                        <div class="d-flex flex-row g-4">
+                            <div class="mg_left" >
+                                <p class="fs-3 text-primary">204+</p>
+                                <p class="text-black-50">No.Studdents</p>
+                            </div>
+                            <div class="mg_left">
+                                <p class="fs-3 text-primary">0</p>
+                                <p class="text-black-50">No.Teachers</p>
+                            </div>
+                            <div class="mg_left">
+                                <p class="fs-3 text-primary">0</p>
+                                <p class="text-black-50">No.Awards</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-primary rounded-pill">ADMISSION</button>
+                                <button class="btn btn-outline-primary rounded-pill">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="right-sec mt-3">
+                            <img src="./assets/img/video.png"></img>
+                            <div class="video-back"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 7-->
+        <section class="school">
+            <div class="container">
+                <div class="text-center mt-5 d-flex flex-column flex-wrap mb-4 ">
+                    <h1 class=" m-3 text-primary">School New</h1>
+                    <p>Far far, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live blind texts.</p>
+                </div>
+            </div>
+            <div class="container row  m-auto">
+                <div class="cole col-lg-6 mt-3">
+                    <div class="member d-flex align-items-start">
+                        <div class="update"><img
+                                src="./assets/img/course1.png"
+                                class="img-fluid" alt=""></div>
+                        <div class="information_for_school">
+                            <h4 class="text-primary">Education for Tomorrow's Leaders</h4>
+                            <div class="d-flex align-items-center">
+                                <p class="carlender">jun2 22.2020</p>
+                                <p class="admin">Admin</p>
+                            </div>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                Consonantia,there live blind texts.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cole col-lg-6 mt-3">
+                    <div class="member d-flex align-items-start">
+                        <div class="update"><img
+                                src="./assets/img/course1.png"
+                                class="img-fluid" alt=""></div>
+                        <div class="information_for_school">
+                            <h4 class="text-primary">Enroll Your Kind This Summer to get 30%</h4>
+                            <div class="d-flex align-items-center">
+                                <p class="carlender">jun2 22.2020</p>
+                                <p class="admin">Admin</p>
+                            </div>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                Consonantia,there live blind texts.</p>
+                            <a href="#" class="text-decoration-none">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- section 8 -->
+        <section class=" mb-5 mt-5">
+            <div class="container">
+                <div class="row mt-8">
+                    <div class="col-12 d-flex justify-content-center align-self-center">
+                        <h2 class="sec-4-heading text-primary"> Pricing</h2>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-self-center mt-3">
+                        <p class="sec-2-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-12 align-self-center">
+                            <div class="card mb-3 p-2 m-auto" style="width: 300px;">
+                                <div class="card-content">
+                                    <h5 class="text-primary">Business</h5>
+                                    <h4 class="text-primary">$50.99 <span class="text-dark">/month</span></h4>
+                                    <p class="mt-3 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <button class="btn btn-outline-primary rounded-pill" >Get STARTED</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 align-self-center">
+                            <div class="card mb-3 p-2 m-auto" style="width: 300px;">
+                                <div class="card-content">
+                                    <h5 class="text-primary">Business</h5>
+                                    <h4 class="text-primary">$99.99 <span class="text-dark">/month</span></h4>
+                                    <p class="mt-3 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <button class="btn btn-primary rounded-pill">Get STARTED</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 align-self-center">
+                            <div class="card mb-3 p-2 m-auto" style="width: 300px;">
+                                <div class="card-content">
+                                    <h5 class="text-primary">Premium</h5>
+                                    <h4 class="text-primary">$199.99 <span class="text-dark">/month</span></h4>
+                                    <p class="mt-3 text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <button class="btn btn-outline-primary rounded-pill">Get STARTED</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- section 9 -->
+      
+   
+
+        <section class="testimonials pb-lg-5 pt-lg-5 bg-dark-subtle mb-5">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-12 d-flex justify-content-center align-self-center">
+                        <h2 class="sec-4-heading text-primary"> Testimonials</h2>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-self-center mt-3">
+                        <p class="sec-2-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-primary" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-primary"  aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="circle-carousel">
+                            <div class="circle">
+                                <img src="./assets/img/hacker.jpg" class="d-block w-100" alt="...">
+                                <p>Jogn Doe</p>
+                                <p>Ceo Founder</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item active">
+                        <div class="circle-carousel">
+                            <div class="circle">
+                                <img src="./assets/img/hacker.jpg" class="d-block w-100" alt="...">
+                                <p>Jogn Doe</p>
+                                <p>Ceo Founder</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item active">
+                        <div class="circle-carousel">
+                            <div class="circle">
+                                <img src="./assets/img/hacker.jpg" class="d-block w-100" alt="...">
+                                <p>Jogn Doe</p>
+                                <p>Ceo Founder</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden ">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+
+       <!-- section 10 -->
+        <section >
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img src="./assets/img/task-image.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <div class="right-content mt-4 m-auto">
+                            <h3 class="text-primary">Why Choose Us</h3>
+                            <p class="mt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <div class="bg-sec10">
+                                <p><span class="dash"><i class="fa-solid fa-minus"></i></span>Good Teachers and Staff</p>
+                            </div>
+                            <div class="img-text">
+                                <img src="./assets/img/img-school-1-min.jpg" alt="" style="width: 100px;"> 
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repudiandae reprehenderit temporibus.</p>
+                            </div>
+                            <p><span><i class="fa-solid fa-plus text-dark"></i></span>We Value Good Characters</p>
+                            <p><span><i class="fa-solid fa-plus text-dark"></i></span>We Value Good Characters</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="mt-3 m-auto">
+                            <h5 class="text-light">About us</h5>
+                            <p class="text-light mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <h5 class="text-light mt-5">Contact</h5>
+                            <div>
+                        <a href="#"><img src="./assets/img/instagram.png" alt="" width="30px"></a>
+                        <a href="#"><img src="./assets/img/twitter.png" alt="" width="30px"></a>
+                        <a href="#"><img src="./assets/img/facebook.png" alt="" width="30px"></a>
+                        <a href="#"><img src="./assets/img/linkedin.png" alt="" width="30px"></a>
+                        <a href="#"><img src="./assets/img/pinterest.png" alt="" width="30px"></a>
+                        <a href="#"><img src="./assets/img/github.png" alt="" width="30px"></a>
+
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="mt-4 m-auto ml-4">
+                            <h5 class="text-light">Projects</h5>
+                        <ul class="section-list">
+                            <li>Web Design</li>
+                            <li>HTML5</li>
+                            <li>Css3</li>
+                            <li>jQuery</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="mt-4 ml-6">
+                            <h5 class="text-light">Gallery</h5>
+                            <div class="row ml-5">
+                                <div class="col-4">
+                                    <img src="./assets/img/gal_1.jpg" alt="" style="width: 70px;">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/img/gal_2.jpg" alt="" style="width: 70px;">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/img/gal_3.jpg" alt="" style="width: 70px;">
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-4">
+                                    <img src="./assets/img/gal_4.jpg" alt="" style="width: 70px;">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/img/gal_5.jpg" alt="" style="width: 70px;">
+                                </div>
+                                <div class="col-4">
+                                    <img src="./assets/img/gal_6.jpg" alt="" style="width: 70px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <h5 class="text-light mt-3 mb-2">Contact</h5>
+                        <p class="mt-4 text-light">43 Raymounth Rd.Baltemoar,London 3910</p>
+                        <p class="mt-2 text-white-50">+1(123)-456-7890</p>
+                        <p class="text-white-50">+1(123)-456-7890</p>
+                        <p class="text-white-50">info@mydomain.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-light mt-5 pb-4">
+                <p>
+                    Copyright@2023. All Rights Reserved.-Designed with love by Untree.co Distributed By SalmanKhaddour 
+                </p>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
